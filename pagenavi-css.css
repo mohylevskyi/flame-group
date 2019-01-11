@@ -1,0 +1,31 @@
+/*
+Default style for WP-PageNavi plugin
+
+
+*/
+
+.wp-pagenavi {
+	clear: both;
+	text-align:center;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+	padding:0px 12px !important;
+	font:bold 22px/25px 'Roboto', sans-serif !important;
+	text-decoration:none !important;
+	color:#000000 !important;
+	opacity:0.25 !important;
+}
+.wp-pagenavi span.pages{
+	display:none !important;
+}
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	font-size: 30px !important;
+	opacity:1 !important;
+}
+
+.wp-pagenavi span.current {
+	font-size:30px !important;
+	color: #d35243 !important;
+}
